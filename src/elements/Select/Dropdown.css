@@ -1,0 +1,133 @@
+.dropdown-container-wrapper {
+  /* margin-bottom: 1.25rem; */
+}
+
+.dropdown-container {
+  text-align: left;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 0.3125rem;
+  width: 100%;
+
+  background: #ffffff;
+  border-radius: 0.75rem;
+  color: #b4b4bc;
+  padding: 0.5rem 0px 0.5rem 0.75rem;
+  box-sizing: border-box;
+}
+
+.dropdown-input {
+  padding: 0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  transform: translateY(0.25rem);
+  width: calc(100% - 2.5rem);
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  z-index: 99;
+  left: -1px;
+  padding: 1.25rem;
+  top: 3.4375rem;
+}
+
+.dropdown-menu-container {
+  overflow: auto;
+  max-height: 9.375rem;
+  padding-top: 0.625rem;
+}
+
+.dropdown-item {
+  padding: 0.3125rem 0 1.25rem 0;
+  cursor: pointer;
+  color: #04040d;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+}
+
+.dropdown-item:hover {
+  background-color: #9fc3f870;
+}
+
+.dropdown-item.selected {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.dropdown-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3125rem;
+}
+
+.dropdown-tag-item {
+  background-color: #ddd;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-tag-close {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  position: relative;
+  background-color: #fff;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  color: #b4b4bc;
+}
+
+.search-box svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.625rem;
+}
+
+.dropdown-selected-value {
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  color: #04040d;
+}
+
+.dropdown-tool {
+  left: -10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.search-box::placeholder {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  color: #b4b4bc;
+}
+
+.search-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.3125rem 0.3125rem 0.3125rem 2.1875rem;
+  border: 1px solid #000000;
+  border-radius: 2rem;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.375rem;
+}

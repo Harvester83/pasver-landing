@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&family=Nunito+Sans:wght@400;600;700;900&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #070819;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+p {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+
+/* xs: 768 - 1024 */
+@media only screen and (min-width: 100px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* sm: 768 - 1024 */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* md: 1024 - 1440 */
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* lg: 1440 - 1920 */
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+ /* xl: 1920 - 2560  */
+@media only screen and (min-width: 1920px) { 
+  html {
+    font-size: 21px;
+  }
+} 
+
+@media only screen and (min-width: 2560px) { 
+  .container {
+    max-width: 2200px !important;
+  }
+} 
+

@@ -1,0 +1,2 @@
+export const MOB_RESOLUTION_POINT = 768;
+export const TABLET_RESOLUTION_POINT = 1024;
